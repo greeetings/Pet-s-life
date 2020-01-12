@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My pet's life</title>
+</head>
+<body>
+
+<div style="margin:5px">
+    <form action="/logout" method="post">
+        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+        <input type="submit" value="Sign Out"/>
+    </form>
+</div>
+
+<div style="margin:5px">
+    <form method="post">
+        <input type="text" name="text" placeholder="Введите сообщение">
+        <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+
+<div style="margin:5px">Список сообщений</div>
+<div th:each="message:${messages}">
+    <b th:text="${message.id}"></b>
+    <span th:text="${message.text}"></span>
+    <strong th:text="${message.authorName}"></strong>
+</div>
+
+</body>
+</html>
