@@ -12,7 +12,7 @@
     <database id="3" parent="1" name="pet_db">
       <ObjectId>16452</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>703</IntrospectionStateNumber>
+      <IntrospectionStateNumber>725</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
     <database id="4" parent="1" name="postgres">
@@ -72,7 +72,7 @@
       <Comment>standard public schema</Comment>
       <StateNumber>360</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>706</IntrospectionStateNumber>
+      <IntrospectionStateNumber>726</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="17" parent="3" name="btree">
@@ -52152,7 +52152,7 @@
     <table id="4682" parent="16" name="message">
       <ObjectId>16453</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>699</StateNumber>
+      <StateNumber>714</StateNumber>
     </table>
     <table id="4683" parent="16" name="user_role">
       <ObjectId>16460</ObjectId>
@@ -97968,21 +97968,27 @@ umserver</ColNames>
       <StateNumber>698</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="15279" parent="4682" name="message_pkey">
+    <column id="15279" parent="4682" name="filename">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>714</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="15280" parent="4682" name="message_pkey">
       <ObjectId>16456</ObjectId>
       <StateNumber>653</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="15280" parent="4682" name="message_pkey">
+    <key id="15281" parent="4682" name="message_pkey">
       <ObjectId>16457</ObjectId>
       <StateNumber>653</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>message_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="15281" parent="4682" name="fk70bv6o4exfe3fbrho7nuotopf">
+    <foreign-key id="15282" parent="4682" name="fk70bv6o4exfe3fbrho7nuotopf">
       <ObjectId>16476</ObjectId>
       <StateNumber>699</StateNumber>
       <ColNames>user_id</ColNames>
@@ -97992,20 +97998,20 @@ umserver</ColNames>
       <RefKeyName>usr_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="15282" parent="4683" name="user_id">
+    <column id="15283" parent="4683" name="user_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>680</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="15283" parent="4683" name="roles">
+    <column id="15284" parent="4683" name="roles">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <StateNumber>680</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <foreign-key id="15284" parent="4683" name="fkfpm8swft53ulq2hl11yplpr5">
+    <foreign-key id="15285" parent="4683" name="fkfpm8swft53ulq2hl11yplpr5">
       <ObjectId>16471</ObjectId>
       <StateNumber>682</StateNumber>
       <ColNames>user_id</ColNames>
@@ -98015,40 +98021,40 @@ umserver</ColNames>
       <RefKeyName>usr_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="15285" parent="4684" name="id">
+    <column id="15286" parent="4684" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>681</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="15286" parent="4684" name="active">
+    <column id="15287" parent="4684" name="active">
       <Position>2</Position>
       <DataType>boolean|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>681</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="15287" parent="4684" name="password">
+    <column id="15288" parent="4684" name="password">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <StateNumber>681</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="15288" parent="4684" name="username">
+    <column id="15289" parent="4684" name="username">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <StateNumber>681</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="15289" parent="4684" name="usr_pkey">
+    <index id="15290" parent="4684" name="usr_pkey">
       <ObjectId>16469</ObjectId>
       <StateNumber>681</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="15290" parent="4684" name="usr_pkey">
+    <key id="15291" parent="4684" name="usr_pkey">
       <ObjectId>16470</ObjectId>
       <StateNumber>681</StateNumber>
       <ColNames>id</ColNames>

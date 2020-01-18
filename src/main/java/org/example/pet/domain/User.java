@@ -26,6 +26,10 @@ public class User implements UserDetails {
         return id;
     }
 
+    public boolean isAdmin() {
+        return roles.contains(Role.ADMIN);
+    }
+
     public void setId(Long id) {
         this.id = id;
     }

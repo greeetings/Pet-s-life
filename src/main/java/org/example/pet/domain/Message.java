@@ -11,6 +11,16 @@ public class Message {
     private Integer id;
     private String text;
 
+    public String getFilename() {
+        return filename;
+    }
+
+    public void setFilename(String filename) {
+        this.filename = filename;
+    }
+
+    private String filename;
+
 
 
     @ManyToOne(fetch = FetchType.EAGER)
