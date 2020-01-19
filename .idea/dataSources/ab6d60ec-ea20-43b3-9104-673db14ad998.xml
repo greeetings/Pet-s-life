@@ -52151,16 +52151,19 @@
     </sequence>
     <table id="4682" parent="16" name="message">
       <ObjectId>16453</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>714</StateNumber>
     </table>
     <table id="4683" parent="16" name="user_role">
       <ObjectId>16460</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>682</StateNumber>
     </table>
     <table id="4684" parent="16" name="usr">
       <ObjectId>16463</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>682</StateNumber>
     </table>
