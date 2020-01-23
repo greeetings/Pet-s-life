@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e22cb599-21bc-4ddb-9241-d512433118f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +216,7 @@
       <workItem from="1579789288099" duration="3829000" />
       <workItem from="1579802366759" duration="60000" />
       <workItem from="1579805288234" duration="1478000" />
+      <workItem from="1579806862853" duration="216000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy_to_heroku">
       <created>1579512044173</created>
