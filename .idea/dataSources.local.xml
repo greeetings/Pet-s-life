@@ -17,7 +17,7 @@
       </schema-mapping>
     </data-source>
     <data-source name="heroku" uuid="7bc30a34-8d9e-4ce9-ad9e-19d9b94d27c9">
-      <database-info product="PostgreSQL" version="11.6 (Ubuntu 11.6-1.pgdg16.04+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="11.6">
+      <database-info product="PostgreSQL" version="11.6 (Ubuntu 11.6-1.pgdg16.04+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="11.6" exact-driver-version="42.2">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />

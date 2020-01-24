@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e22cb599-21bc-4ddb-9241-d512433118f9" name="Default Changelist" comment="" />
+    <list default="true" id="e22cb599-21bc-4ddb-9241-d512433118f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +220,7 @@
       <workItem from="1579805288234" duration="1478000" />
       <workItem from="1579806862853" duration="1061000" />
       <workItem from="1579809982346" duration="27000" />
-      <workItem from="1579880349792" duration="2491000" />
+      <workItem from="1579880349792" duration="3552000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy_to_heroku">
       <created>1579512044173</created>
