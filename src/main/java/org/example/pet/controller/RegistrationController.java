@@ -27,8 +27,7 @@ public class RegistrationController {
     @Autowired
     private UserService userService;
 
-    @Value("${recaptcha.secret}")
-    private String secret;
+
 
     @Autowired
     private RestTemplate restTemplate;
@@ -46,12 +45,9 @@ public class RegistrationController {
             BindingResult bindingResult,
             Model model
     ) {
-        String url = String.format(CAPTCHA_URL, secret, captchaResponce);
-        CaptchaResponseDto response = restTemplate.postForObject(url, Collections.emptyList(), CaptchaResponseDto.class);
 
-        if (!response.isSuccess()) {
-            model.addAttribute("captchaError", "Fill captcha");
-        }
+
+
 
         boolean isConfirm = StringUtils.isEmpty(passwordConfirm);
         if (isConfirm) {
@@ -62,7 +58,7 @@ public class RegistrationController {
             bindingResult.addError(new FieldError("user", "password", "Passwords are different!"));
         }
 
-        if (isConfirm || bindingResult.hasErrors() || !response.isSuccess()) {
+        if (isConfirm || bindingResult.hasErrors() ) {
             Map<String, String> errors = ControllerUtils.getErrors(bindingResult);
 
             model.mergeAttributes(errors);
