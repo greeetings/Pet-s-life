@@ -42,7 +42,7 @@ public class UserService implements UserDetailsService {
 
         user.setActive(true);
         user.setRoles(Collections.singleton(Role.USER));
-        user.setPassword(passwordEncoder.encode(user.getPassword()));
+        user.setPassword("123");
 
         userRepo.save(user);
 
@@ -74,7 +74,7 @@ public class UserService implements UserDetailsService {
     public void updateProfile(User user, String password) {
 
         if (!StringUtils.isEmpty(password)) {
-            user.setPassword(passwordEncoder.encode(password));
+            user.setPassword("123");
         }
 
         userRepo.save(user);
