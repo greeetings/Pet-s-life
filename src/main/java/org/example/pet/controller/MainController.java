@@ -67,12 +67,6 @@ public class MainController {
         }
         else {
 
-            System.out.println("---------------- START UPLOAD FILE ----------------");
-
-
-            System.out.println("---------------- START DOWNLOAD FILE ----------------");
-            s3Services.downloadFile(file.getOriginalFilename());
-
             if (file != null && !file.getOriginalFilename().isEmpty()) {
 
                 String path =  s3Services.uploadFile(file.getOriginalFilename(), file);
