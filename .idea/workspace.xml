@@ -7,7 +7,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e22cb599-21bc-4ddb-9241-d512433118f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pet/config/S3Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pet/service/S3Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pet/service/impl/S3ServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pet/util/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/pet_db.njfkxA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/pet_db.njfkxA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/pet_db.njfkxA/schema/information_schema.FNRwLQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/pet_db.njfkxA/schema/information_schema.FNRwLQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/pet_db.njfkxA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/pet_db.njfkxA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/pet_db.njfkxA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/pet_db.njfkxA/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/pet_db.njfkxA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/pet_db.njfkxA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab6d60ec-ea20-43b3-9104-673db14ad998/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pet/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pet/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pet/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pet/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/config/MvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/controller/ControllerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/controller/ControllerUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/domain/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/domain/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/domain/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/domain/dto/CaptchaResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/domain/dto/CaptchaResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/repos/MessageRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/repos/MessageRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/repos/UserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/repos/UserRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/pet/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/pet/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftlh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,39 +66,39 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="heroku" type="feb32156:DbDataSourceImpl" />
+        <item name="pet_db@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="heroku" type="feb32156:DbDataSourceImpl" />
+        <item name="pet_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="heroku" type="feb32156:DbDataSourceImpl" />
+        <item name="pet_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dc8nc5vqh7jsq5: database" type="162271b6:PgImplModel$Database" />
+        <item name="pet_db: database" type="162271b6:PgImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="heroku" type="feb32156:DbDataSourceImpl" />
+        <item name="pet_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dc8nc5vqh7jsq5: database" type="162271b6:PgImplModel$Database" />
+        <item name="pet_db: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="heroku" type="feb32156:DbDataSourceImpl" />
+        <item name="pet_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dc8nc5vqh7jsq5: database" type="162271b6:PgImplModel$Database" />
+        <item name="pet_db: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="heroku" type="feb32156:DbDataSourceImpl" />
+        <item name="pet_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dc8nc5vqh7jsq5: database" type="162271b6:PgImplModel$Database" />
+        <item name="pet_db: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
@@ -70,7 +108,7 @@
   </component>
   <component name="ExecutionTargetDialog">
     <checked>
-      <node key="7bc30a34-8d9e-4ce9-ad9e-19d9b94d27c9" />
+      <node key="ab6d60ec-ea20-43b3-9104-673db14ad998" />
     </checked>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -115,11 +153,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -218,6 +256,10 @@
       <workItem from="1579936737727" duration="3525000" />
       <workItem from="1580050102831" duration="93000" />
       <workItem from="1580289024501" duration="99000" />
+      <workItem from="1580289380636" duration="6439000" />
+      <workItem from="1580300665971" duration="9632000" />
+      <workItem from="1580371090570" duration="1630000" />
+      <workItem from="1580451766850" duration="3802000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy_to_heroku">
       <created>1579512044173</created>
@@ -273,74 +315,78 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1578753613967" />
-    <state x="569" y="116" key="ExecutionTargetDialog" timestamp="1579938543432">
+    <state x="569" y="116" key="ExecutionTargetDialog" timestamp="1580303515882">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="569" y="116" key="ExecutionTargetDialog/0.0.1536.824@0.0.1536.824" timestamp="1579938543432" />
+    <state x="569" y="116" key="ExecutionTargetDialog/0.0.1536.824@0.0.1536.824" timestamp="1580303515882" />
     <state x="401" y="84" key="FileChooserDialogImpl" timestamp="1580050194443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="401" y="84" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580050194443" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1579781254807">
+    <state width="1493" height="270" key="GridCell.Tab.0.bottom" timestamp="1580455443128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579781254807" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1579781254806">
+    <state width="1493" height="270" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580455443128" />
+    <state width="1493" height="270" key="GridCell.Tab.0.center" timestamp="1580455443128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579781254806" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1579781254805">
+    <state width="1493" height="270" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580455443128" />
+    <state width="1493" height="270" key="GridCell.Tab.0.left" timestamp="1580455443128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579781254805" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1579781254806">
+    <state width="1493" height="270" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580455443128" />
+    <state width="1493" height="270" key="GridCell.Tab.0.right" timestamp="1580455443128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579781254806" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1579781254807">
+    <state width="1493" height="270" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580455443128" />
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom" timestamp="1580455443132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579781254807" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1579781254807">
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580455443132" />
+    <state width="1493" height="270" key="GridCell.Tab.1.center" timestamp="1580455443132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579781254807" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1579781254807">
+    <state width="1493" height="270" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580455443132" />
+    <state width="1493" height="270" key="GridCell.Tab.1.left" timestamp="1580455443132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579781254807" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1579781254807">
+    <state width="1493" height="270" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580455443132" />
+    <state width="1493" height="270" key="GridCell.Tab.1.right" timestamp="1580455443132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579781254807" />
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1579781254808">
+    <state width="1493" height="270" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580455443132" />
+    <state width="1493" height="270" key="GridCell.Tab.2.bottom" timestamp="1580455443132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579781254808" />
-    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1579781254808">
+    <state width="1493" height="270" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580455443132" />
+    <state width="1493" height="270" key="GridCell.Tab.2.center" timestamp="1580455443132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1579781254808" />
-    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1579781254808">
+    <state width="1493" height="270" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1580455443132" />
+    <state width="1493" height="270" key="GridCell.Tab.2.left" timestamp="1580455443132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1579781254808" />
-    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1579781254808">
+    <state width="1493" height="270" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1580455443132" />
+    <state width="1493" height="270" key="GridCell.Tab.2.right" timestamp="1580455443132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1579781254808" />
+    <state width="1493" height="270" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1580455443132" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1578817322478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1578817322478" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1579882665833">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1580302687555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579882665833" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580302687555" />
     <state x="499" y="169" key="extract.method.dialog" timestamp="1579385622449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="169" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1579385622449" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1580304653428">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1580304653428" />
     <state x="61" y="38" key="new project wizard" timestamp="1580050197793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -349,5 +395,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579505692387" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1580302771791">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580302771791" />
   </component>
 </project>

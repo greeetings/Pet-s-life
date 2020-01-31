@@ -1,10 +1,14 @@
 package org.example.pet.controller;
 
+import com.amazonaws.auth.BasicAWSCredentials;
+import com.amazonaws.services.s3.AmazonS3Client;
 import org.example.pet.domain.Message;
 import org.example.pet.domain.User;
 import org.example.pet.repos.MessageRepo;
+import org.example.pet.service.S3Services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,10 +27,11 @@ import java.util.UUID;
 @Controller
 public class MainController {
     @Autowired
+    S3Services s3Services;
+
+    @Autowired
     private MessageRepo messageRepo;
 
-    @Value("${upload.path}")
-    private String uploadPath;
 
     @GetMapping("/")
     public String greeting(Map<String, Object> model) {
@@ -51,7 +56,7 @@ public class MainController {
             BindingResult bindingResult,
             Model model,
             @RequestParam("file") MultipartFile file
-    ) throws IOException {
+    )  {
         message.setAuthor(user);
 
         if (bindingResult.hasErrors()) {
@@ -59,20 +64,20 @@ public class MainController {
 
             model.mergeAttributes(errorsMap);
             model.addAttribute("message", message);
-        } else {
+        }
+        else {
+
+            System.out.println("---------------- START UPLOAD FILE ----------------");
+
+
+            System.out.println("---------------- START DOWNLOAD FILE ----------------");
+            s3Services.downloadFile(file.getOriginalFilename());
+
             if (file != null && !file.getOriginalFilename().isEmpty()) {
-                File uploadDir = new File(uploadPath);
 
-                if (!uploadDir.exists()) {
-                    uploadDir.mkdir();
-                }
+                String path =  s3Services.uploadFile(file.getOriginalFilename(), file);
 
-                String uuidFile = UUID.randomUUID().toString();
-                String resultFilename = uuidFile + "." + file.getOriginalFilename();
-
-                file.transferTo(new File(uploadPath + "/" + resultFilename));
-
-                message.setFilename(resultFilename);
+                message.setFilename(path);
             }
 
             model.addAttribute("message", null);
