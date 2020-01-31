@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e22cb599-21bc-4ddb-9241-d512433118f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.ftlh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +281,8 @@
       <workItem from="1580300665971" duration="9632000" />
       <workItem from="1580371090570" duration="1630000" />
       <workItem from="1580451766850" duration="5285000" />
-      <workItem from="1580462309137" duration="2103000" />
+      <workItem from="1580462309137" duration="2357000" />
+      <workItem from="1580464902201" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy_to_heroku">
       <created>1579512044173</created>
