@@ -26,8 +26,6 @@ public class S3ServicesImpl implements S3Services {
     @Autowired
     private AmazonS3 s3client;
 
-
-
     @Value("${jsa.s3.bucket}")
     private String bucketName;
 
@@ -35,13 +33,9 @@ public class S3ServicesImpl implements S3Services {
     public void downloadFile(String keyName) {
 
         try {
-
             System.out.println("Downloading an object");
             S3Object s3object = s3client.getObject(new GetObjectRequest(
                     bucketName, keyName));
-
-
-
             String temp;
             temp = s3object.getRedirectLocation();
             System.out.println(temp);
@@ -80,7 +74,6 @@ public class S3ServicesImpl implements S3Services {
                     .withCannedAcl(CannedAccessControlList.PublicRead));
             System.out.println(bucketName);
             System.out.println(keyName);
-
             String path = "https://" + bucketName + ".s3.amazonaws.com/" + keyName;
             return path;
 

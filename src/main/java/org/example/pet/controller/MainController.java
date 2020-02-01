@@ -1,14 +1,10 @@
 package org.example.pet.controller;
 
-import com.amazonaws.auth.BasicAWSCredentials;
-import com.amazonaws.services.s3.AmazonS3Client;
 import org.example.pet.domain.Message;
 import org.example.pet.domain.User;
 import org.example.pet.repos.MessageRepo;
 import org.example.pet.service.S3Services;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,10 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
-import java.io.File;
-import java.io.IOException;
 import java.util.Map;
-import java.util.UUID;
 
 @Controller
 public class MainController {
@@ -41,7 +34,6 @@ public class MainController {
     @GetMapping("/main")
     public String main(@RequestParam(required = false, defaultValue = "") String filter, Model model) {
         Iterable<Message> messages = messageRepo.findAll();
-
 
         model.addAttribute("messages", messages);
         model.addAttribute("filter", filter);
@@ -68,21 +60,19 @@ public class MainController {
         else {
 
             if (file != null && !file.getOriginalFilename().isEmpty()) {
-
                 String path =  s3Services.uploadFile(file.getOriginalFilename(), file);
-
                 message.setFilename(path);
             }
 
             model.addAttribute("message", null);
-
             messageRepo.save(message);
         }
 
         Iterable<Message> messages = messageRepo.findAll();
-
         model.addAttribute("messages", messages);
 
         return "main";
     }
+
+
 }
